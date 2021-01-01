@@ -1,0 +1,10 @@
+body {
+  font-family: 'Open Sans Condensed';
+  margin:0px
+}
+a{
+  text-decoration: none;
+}
+.app{
+  overflow-x:hidden;
+}

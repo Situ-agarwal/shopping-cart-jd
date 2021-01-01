@@ -1,0 +1,136 @@
+
+.main{
+    background-color: #f4f1f1;
+    display: grid;
+    margin-top: 69px;
+
+}
+.main:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .column {
+    float: left;
+    padding: 10px;
+    height: 100px; /* Should be removed. Only for demonstration */
+  }
+.main .checkout-page {
+    padding-left: 19px;
+    background-color: white;
+    z-index: 70;
+   box-shadow: 0 0px 19px 0  #999999;
+    border-bottom: 1px solid lightgrey;
+    width: 80%;
+    float: left;
+    box-sizing: border-box;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    margin-top: 2%;
+
+}
+.main .checkout-page .checkout-header {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    background: whitesmoke;
+    margin-top: 12px;
+    margin-left: -19px;
+    color:lightslategrey
+
+}
+.main .checkout-page .checkout-header .header-block {
+    text-transform: capitalize;
+     width: 17%;
+}
+.main .checkout-page .shopping .shopping-item-details{
+    color: #928787;
+}
+.main .checkout-page .shopping .shopping-cart{
+    color: #6d6868;
+    font-weight:bold
+}
+.main .checkout-page .checkout-header .header-block .item-details
+{
+    padding-left: 28px;
+}
+.main .checkout-page .checkout-header .header-block .quantity{
+    margin-left: 128%;
+    padding-left: 81px;
+}
+.main .checkout-page .checkout-header .header-block:last-child {
+    width: -19%;
+} 
+.main .footer{
+    width:20%;
+    float:left;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    background-color: white;
+    z-index: 70;
+    border-bottom: 1px solid lightgrey;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    box-sizing: border-box;
+    box-shadow: 0 0px 19px 0  #999999;
+    margin-left: 81%;
+    margin-top: -32%;
+    height: 220px;
+}
+.main .footer .checkout-btn{
+    background: #b20c0c;
+    padding: 14px;
+    width: 67%;
+    margin-left: 9%;
+    text-align: center;
+    color: white;
+    margin-top: 34%;
+
+}
+.main .checkout-page  .continue-shop {
+    float: left;
+    border: 1px solid #b20c0c;
+    padding:9px;
+    color:#b20c0c;
+   
+}
+.main .checkout-page  .continue-shop .continue-link .arrowicon
+{
+    padding-right: 9px;
+}
+.main .checkout-page  .continue-shop .continue-link {
+    color:#b20c0c;
+    
+}
+.main .checkout-page  .continue-shop{
+    margin-bottom: 24px;
+    margin-top: 24px;
+
+}
+.main .total{
+    margin-left: 16px;
+    color:#6d6868;
+}
+.main .total .totaldef{
+    font-weight:bold;
+    color: #6d6868;
+    padding-right: 54px;
+}
+.main .shopping .remove-button{
+    color: blue;
+    margin-left: 32px;
+    border: none;
+    background: white;
+}
+.main .shopping{
+    padding-top: 16px;
+
+}
+.checkout-page .checkout-header .header-block .amount{
+    padding-left: 32px;
+}
+.checkout-page .checkout-header .header-block .rate
+{
+    margin-left: 112%;
+}
+
